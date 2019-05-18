@@ -1,0 +1,52 @@
+body {
+    background-color: whitesmoke;
+}
+
+.party-hard {
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #efefef;
+    padding: 30px;
+}
+
+input[type=button] {
+    background-color: white;
+    border: 1px solid gray;
+    transition-duration: 0.4s;
+    margin: 5px;
+}
+
+input[type=button]:hover {
+    background-color: rgba(116, 116, 116, 0.774);
+}
+
+.SomeGuest {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 20px 0;
+    width: 50%;
+    border-bottom: 1px solid #cecece;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 15px;    
+    color: #333333;
+}
+
+input[type=checkbox] {
+    margin-right: 5px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.Adder {
+    width: 100%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
